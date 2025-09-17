@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     preset: 'awsAmplify',
-    awsAmplify: {
-      catchAllStaticFallback: false,
-    },
     prerender : {
       routes: [
         "/",
